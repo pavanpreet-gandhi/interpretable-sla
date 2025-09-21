@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex project_report - pg"] 1758426201.61851 "project_report - pg.aux" "project_report - pg.bbl" "project_report - pg" 1758426729.71891 0
+["bibtex project_report - pg"] 1758448366.21571 "project_report - pg.aux" "project_report - pg.bbl" "project_report - pg" 1758448370.76018 0
   "./references.bib" 1758291817.91379 37320 a0cf121d74861dc98f3d00127c3bf04a ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "project_report - pg.aux" 1758426729.49696 40520 233bbafbc921f28c54be340a2a20d049 "pdflatex"
+  "project_report - pg.aux" 1758448370.54343 42539 8f2b977bceb8968828448dca222d8cf2 "pdflatex"
   (generated)
   "project_report - pg.bbl"
   "project_report - pg.blg"
   (rewritten before read)
-["pdflatex"] 1758426725.52535 "/Users/pavanpreetgandhi/git-repos/interpretable-sla/report/project_report - pg.tex" "project_report - pg.pdf" "project_report - pg" 1758426729.71906 0
-  "/Users/pavanpreetgandhi/git-repos/interpretable-sla/report/project_report - pg.tex" 1758426725.30269 166498 89deffbd752b14671cae6a88bf86eb3b ""
+["pdflatex"] 1758448366.29768 "/Users/pavanpreetgandhi/git-repos/interpretable-sla/report/project_report - pg.tex" "project_report - pg.pdf" "project_report - pg" 1758448370.76033 0
+  "/Users/pavanpreetgandhi/git-repos/interpretable-sla/report/project_report - pg.tex" 1758448361.6065 166885 0468263c0d51563bebadcf94026040bd ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -234,17 +234,20 @@
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "images/actual_vs_predicted_all.png" 1758122438.85786 892353 5c146226cef6e1d5da1b58e786a310b4 ""
   "images/actual_vs_predicted_orig.png" 1758122422.2789 577835 3203a83bce1540da3c9d6afcd6e4827a ""
+  "images/calibration_schematic.png" 1758447881.9834 181999 b74c19e9441cf9afa208114b82d08cfa ""
   "images/coefficients.png" 1758136429.63467 96751 435e85153ea505e9ba7a22549a63fa32 ""
   "images/correlation_matrix_original.png" 1758136430.29056 327702 a656f98a4c05e29be23dde491cde96d5 ""
   "images/correlation_matrix_rubric.png" 1758136429.27234 950994 8ccd18e72ca77db0096c6273e5df288e ""
   "images/low_data_regime_pcc.png" 1758273939.29074 371271 4cad1d86fc7ad8c23d8761efbd2b757d ""
   "images/low_data_regime_rmse.png" 1758273938.99851 417254 d29bec04b3a573032992a8d8396a8641 ""
+  "images/overall_method_schematic.png" 1758447312.14874 288801 6a9c13edfe859abc667d1fab5854c50c ""
   "images/question_score_examples.png" 1758128300.02867 670755 984298e494a36552a7f1735bc818221e ""
-  "project_report - pg.aux" 1758426729.49696 40520 233bbafbc921f28c54be340a2a20d049 "pdflatex"
-  "project_report - pg.bbl" 1758426201.70089 34003 02a515dabdd1a809ff86ea6f40c32275 "bibtex project_report - pg"
-  "project_report - pg.out" 1758426729.499 8878 e9b968845be9c93e1abfaa30ae0d300e "pdflatex"
-  "project_report - pg.tex" 1758426725.30269 166498 89deffbd752b14671cae6a88bf86eb3b ""
-  "project_report - pg.toc" 1758426729.49923 4654 a64901c929ed2ec8afc29f1cb29bd380 "pdflatex"
+  "images/question_scores_schematic.png" 1758447899.67781 371074 825acdb8a7b87d306fda40e9d3d47f89 ""
+  "project_report - pg.aux" 1758448370.54343 42539 8f2b977bceb8968828448dca222d8cf2 "pdflatex"
+  "project_report - pg.bbl" 1758448366.29499 34003 02a515dabdd1a809ff86ea6f40c32275 "bibtex project_report - pg"
+  "project_report - pg.out" 1758448370.54548 8878 e9b968845be9c93e1abfaa30ae0d300e "pdflatex"
+  "project_report - pg.tex" 1758448361.6065 166885 0468263c0d51563bebadcf94026040bd ""
+  "project_report - pg.toc" 1758448370.54569 4654 ca88283d1a630f974e14fc570d32d771 "pdflatex"
   "ucl_logo.png" 1716212702 6504 3df71c27b7eae94711ab3399c46f3361 ""
   (generated)
   "project_report - pg.aux"

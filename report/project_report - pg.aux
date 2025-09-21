@@ -110,8 +110,8 @@
 \citation{scikit-learn}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Final Regression Model}{14}{subsection.3.2.3}\protected@file@percent }
 \newlabel{subsec:final_regression_model}{{3.2.3}{14}{Final Regression Model}{subsection.3.2.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic illustration of the question-based feature extraction process.}}{15}{figure.caption.3}\protected@file@percent }
-\newlabel{fig:question_based_approach}{{3.2}{15}{Schematic illustration of the question-based feature extraction process}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic illustration of the question-based feature extraction process. The speech LLM is prompted to answer each question for every audio sample. The output probabilities for each option are collected into a table to form the interpretable feature matrix $\mathbf  {Z}$, which is then used to train a regression model to predict the target variable (part scores).}}{15}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:question_based_approach}{{3.2}{15}{Schematic illustration of the question-based feature extraction process. The speech LLM is prompted to answer each question for every audio sample. The output probabilities for each option are collected into a table to form the interpretable feature matrix $\mathbf {Z}$, which is then used to train a regression model to predict the target variable (part scores)}{figure.caption.3}{}}
 \citation{knill2024sandi}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Experiments}{16}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -151,8 +151,8 @@
 \newlabel{fig:sequential_inference_prompt}{{4.1}{20}{Prompt template used for sequential question inference with the speech LLM}{figure.caption.5}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.5}Calibration and Evaluation Metrics}{20}{section.4.5}\protected@file@percent }
 \newlabel{chap:calibration_and_evaluation_metrics}{{4.5}{20}{Calibration and Evaluation Metrics}{section.4.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustration of the two-stage calibration procedure used to align predicted scores with ground-truth scores.}}{21}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:calibration_procedure}{{4.2}{21}{Illustration of the two-stage calibration procedure used to align predicted scores with ground-truth scores}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustration of the two-stage calibration procedure used to align predicted scores with ground-truth scores. First, predictions from all files of a given speaker are averaged to obtain speaker-level scores (this is relevant for parts 1 and 5 where multiple files exist per speaker). Next, a linear calibration is applied to each part's predicted scores. The overall predicted score is computed as the average of the calibrated part scores, followed by a second linear calibration to align with ground-truth overall scores. Note that each linear calibration has its own slope and intercept parameters that are fitted on the dev set.}}{21}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:calibration_procedure}{{4.2}{21}{Illustration of the two-stage calibration procedure used to align predicted scores with ground-truth scores. First, predictions from all files of a given speaker are averaged to obtain speaker-level scores (this is relevant for parts 1 and 5 where multiple files exist per speaker). Next, a linear calibration is applied to each part's predicted scores. The overall predicted score is computed as the average of the calibrated part scores, followed by a second linear calibration to align with ground-truth overall scores. Note that each linear calibration has its own slope and intercept parameters that are fitted on the dev set}{figure.caption.6}{}}
 \citation{qian2024sandi}
 \citation{ma2025assessment}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Results and Discussion}{22}{chapter.5}\protected@file@percent }
@@ -193,23 +193,23 @@
 \newlabel{fig:regression_coefficients}{{5.5}{30}{Regression coefficients for the \emph {Rubric-based Question Set}. Each rubric dimension (pronunciation and fluency: pf, language resource: lr, discourse management: dm) has six grade options (A-F). The counter-intuitive coefficient signs demonstrate that high-grade features (A) don't consistently receive positive coefficients, and low-grade features (F) don't consistently receive negative coefficients, illustrating the impact of multicollinearity among features}{figure.caption.14}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.5.3}Question-level Scores}{30}{subsection.5.5.3}\protected@file@percent }
 \newlabel{subsec:question_scores}{{5.5.3}{30}{Question-level Scores}{subsection.5.5.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Illustration of the question-level scores methodology for decomposing holistic scores into analytic scores across different rubric dimensions.}}{31}{figure.caption.15}\protected@file@percent }
-\newlabel{fig:question_level_methodology}{{5.6}{31}{Illustration of the question-level scores methodology for decomposing holistic scores into analytic scores across different rubric dimensions}{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Illustration of the question-level scores methodology for obtaining analytic scores for each question. Separate linear models are trained to predict the same target variable (part score) for each question using only features corresponding to that question, and the predictions from these models are interpreted as question-level scores.}}{31}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:question_level_methodology}{{5.6}{31}{Illustration of the question-level scores methodology for obtaining analytic scores for each question. Separate linear models are trained to predict the same target variable (part score) for each question using only features corresponding to that question, and the predictions from these models are interpreted as question-level scores}{figure.caption.15}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.6}Low Data Regime}{31}{section.5.6}\protected@file@percent }
 \newlabel{sec:low_data_regime}{{5.6}{31}{Low Data Regime}{section.5.6}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Question-level scores for different rubric dimensions across various sample candidates, illustrating how each criterion contributes to the overall assessment. Each file ID corresponds to a candidate's response for a specific test component.}}{32}{figure.caption.16}\protected@file@percent }
 \newlabel{fig:analytic_scores}{{5.7}{32}{Question-level scores for different rubric dimensions across various sample candidates, illustrating how each criterion contributes to the overall assessment. Each file ID corresponds to a candidate's response for a specific test component}{figure.caption.16}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Scaling curves showing PCC as a function of training data size (log scale) across different feature sets. Each point represents the mean performance over 100 random sub-samples of the training data, with the shaded region indicating the standard deviation across the 100 sub-samples.}}{33}{figure.caption.17}\protected@file@percent }
 \newlabel{fig:low_data_regime_pcc}{{5.8}{33}{Scaling curves showing PCC as a function of training data size (log scale) across different feature sets. Each point represents the mean performance over 100 random sub-samples of the training data, with the shaded region indicating the standard deviation across the 100 sub-samples}{figure.caption.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Scaling curves showing RMSE as a function of training data size (log-scale) across different feature sets. Each point represents the mean performance over 100 random sub-samples of the training data, with the shaded region indicating the standard deviation across the 100 sub-samples.}}{34}{figure.caption.18}\protected@file@percent }
-\newlabel{fig: fig:low_data_regime_rmse}{{5.9}{34}{Scaling curves showing RMSE as a function of training data size (log-scale) across different feature sets. Each point represents the mean performance over 100 random sub-samples of the training data, with the shaded region indicating the standard deviation across the 100 sub-samples}{figure.caption.18}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{35}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Scaling curves showing RMSE as a function of training data size (log-scale) across different feature sets. Each point represents the mean performance over 100 random sub-samples of the training data, with the shaded region indicating the standard deviation across the 100 sub-samples.}}{33}{figure.caption.18}\protected@file@percent }
+\newlabel{fig: fig:low_data_regime_rmse}{{5.9}{33}{Scaling curves showing RMSE as a function of training data size (log-scale) across different feature sets. Each point represents the mean performance over 100 random sub-samples of the training data, with the shaded region indicating the standard deviation across the 100 sub-samples}{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{34}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chap:conclusion}{{6}{35}{Conclusion}{chapter.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Summary of Findings}{35}{section.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Implications for SLA and Educational Technology}{36}{section.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Limitations and Future Work}{36}{section.6.3}\protected@file@percent }
+\newlabel{chap:conclusion}{{6}{34}{Conclusion}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Summary of Findings}{34}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Implications for SLA and Educational Technology}{35}{section.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Limitations and Future Work}{35}{section.6.3}\protected@file@percent }
 \bibstyle{plainnat}
 \bibdata{references}
 \bibcite{apache_parquet}{{1}{2013}{{apa}}{{}}}
@@ -275,56 +275,56 @@
 \bibcite{xu21k_interspeech}{{61}{2021}{{Xu et~al.}}{{Xu, Kang, Cao, Lin, and Ma}}}
 \bibcite{yancey-etal-2023-rating}{{62}{2023}{{Yancey et~al.}}{{Yancey, Laflair, Verardi, and Burstein}}}
 \bibcite{yang2020xlnetgeneralizedautoregressivepretraining}{{63}{2020}{{Yang et~al.}}{{Yang, Dai, Yang, Carbonell, Salakhutdinov, and Le}}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Full Question Sets and Prompts}{46}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Full Question Sets and Prompts}{45}{appendix.A}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{app:full_question_sets}{{A}{46}{Full Question Sets and Prompts}{appendix.A}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}Initial Question Set}{46}{section.A.1}\protected@file@percent }
-\newlabel{app_sec:initial_question_set}{{A.1}{46}{Initial Question Set}{section.A.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.2}Direct Scoring Prompt}{48}{section.A.2}\protected@file@percent }
-\newlabel{app_sec:direct_scoring_prompt}{{A.2}{48}{Direct Scoring Prompt}{section.A.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.3}Rubric-based Question Set}{50}{section.A.3}\protected@file@percent }
-\newlabel{app_sec:rubric_based_question_set}{{A.3}{50}{Rubric-based Question Set}{section.A.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.4}Rubric-based Question Set Batch Prompt}{51}{section.A.4}\protected@file@percent }
-\newlabel{app_sec:rubric_based_question_set_batch}{{A.4}{51}{Rubric-based Question Set Batch Prompt}{section.A.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.5}Revised Question Set}{53}{section.A.5}\protected@file@percent }
-\newlabel{app_sec:revised_question_set}{{A.5}{53}{Revised Question Set}{section.A.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.6}Revised Question Set Batch Prompt}{57}{section.A.6}\protected@file@percent }
-\newlabel{app_sec:revised_question_set_batch}{{A.6}{57}{Revised Question Set Batch Prompt}{section.A.6}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Additional Results}{62}{appendix.B}\protected@file@percent }
+\newlabel{app:full_question_sets}{{A}{45}{Full Question Sets and Prompts}{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Initial Question Set}{45}{section.A.1}\protected@file@percent }
+\newlabel{app_sec:initial_question_set}{{A.1}{45}{Initial Question Set}{section.A.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}Direct Scoring Prompt}{47}{section.A.2}\protected@file@percent }
+\newlabel{app_sec:direct_scoring_prompt}{{A.2}{47}{Direct Scoring Prompt}{section.A.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.3}Rubric-based Question Set}{49}{section.A.3}\protected@file@percent }
+\newlabel{app_sec:rubric_based_question_set}{{A.3}{49}{Rubric-based Question Set}{section.A.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.4}Rubric-based Question Set Batch Prompt}{50}{section.A.4}\protected@file@percent }
+\newlabel{app_sec:rubric_based_question_set_batch}{{A.4}{50}{Rubric-based Question Set Batch Prompt}{section.A.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.5}Revised Question Set}{52}{section.A.5}\protected@file@percent }
+\newlabel{app_sec:revised_question_set}{{A.5}{52}{Revised Question Set}{section.A.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.6}Revised Question Set Batch Prompt}{56}{section.A.6}\protected@file@percent }
+\newlabel{app_sec:revised_question_set_batch}{{A.6}{56}{Revised Question Set Batch Prompt}{section.A.6}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}Additional Results}{61}{appendix.B}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{app:additional_results}{{B}{62}{Additional Results}{appendix.B}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.1}Development Subset}{62}{section.B.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.1}Part 1}{62}{subsection.B.1.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.1}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 1 only).}}{62}{table.caption.30}\protected@file@percent }
-\newlabel{table:part1_results}{{B.1}{62}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 1 only)}{table.caption.30}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.2}Part 3}{63}{subsection.B.1.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.2}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 3 only).}}{63}{table.caption.31}\protected@file@percent }
-\newlabel{table:part3_results}{{B.2}{63}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 3 only)}{table.caption.31}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.3}Part 4}{63}{subsection.B.1.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.3}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 4 only).}}{63}{table.caption.32}\protected@file@percent }
-\newlabel{table:part4_results}{{B.3}{63}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 4 only)}{table.caption.32}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.4}Part 5}{63}{subsection.B.1.4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.4}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 5 only).}}{63}{table.caption.33}\protected@file@percent }
-\newlabel{table:part5_results}{{B.4}{63}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 5 only)}{table.caption.33}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.5}Overall}{63}{subsection.B.1.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.5}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for overall scores).}}{64}{table.caption.34}\protected@file@percent }
-\newlabel{table:overall_results}{{B.5}{64}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for overall scores)}{table.caption.34}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.2}Evaluation Subset}{64}{section.B.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.1}Part 1}{64}{subsection.B.2.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.6}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 1 only).}}{64}{table.caption.35}\protected@file@percent }
-\newlabel{table:part1_eval_results}{{B.6}{64}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 1 only)}{table.caption.35}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.2}Part 3}{64}{subsection.B.2.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.7}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 3 only).}}{64}{table.caption.36}\protected@file@percent }
-\newlabel{table:part3_eval_results}{{B.7}{64}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 3 only)}{table.caption.36}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.3}Part 4}{65}{subsection.B.2.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.8}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 4 only).}}{65}{table.caption.37}\protected@file@percent }
-\newlabel{table:part4_eval_results}{{B.8}{65}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 4 only)}{table.caption.37}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.4}Part 5}{65}{subsection.B.2.4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.9}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 5 only).}}{65}{table.caption.38}\protected@file@percent }
-\newlabel{table:part5_eval_results}{{B.9}{65}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 5 only)}{table.caption.38}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.5}Overall}{65}{subsection.B.2.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {B.10}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for overall scores).}}{65}{table.caption.39}\protected@file@percent }
-\newlabel{table:overall_eval_results}{{B.10}{65}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for overall scores)}{table.caption.39}{}}
-\gdef \@abspage@last{68}
+\newlabel{app:additional_results}{{B}{61}{Additional Results}{appendix.B}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.1}Development Subset}{61}{section.B.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.1}Part 1}{61}{subsection.B.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.1}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 1 only).}}{61}{table.caption.30}\protected@file@percent }
+\newlabel{table:part1_results}{{B.1}{61}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 1 only)}{table.caption.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.2}Part 3}{62}{subsection.B.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.2}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 3 only).}}{62}{table.caption.31}\protected@file@percent }
+\newlabel{table:part3_results}{{B.2}{62}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 3 only)}{table.caption.31}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.3}Part 4}{62}{subsection.B.1.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.3}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 4 only).}}{62}{table.caption.32}\protected@file@percent }
+\newlabel{table:part4_results}{{B.3}{62}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 4 only)}{table.caption.32}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.4}Part 5}{62}{subsection.B.1.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.4}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 5 only).}}{62}{table.caption.33}\protected@file@percent }
+\newlabel{table:part5_results}{{B.4}{62}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for part 5 only)}{table.caption.33}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1.5}Overall}{62}{subsection.B.1.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.5}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on dev set for overall scores).}}{63}{table.caption.34}\protected@file@percent }
+\newlabel{table:overall_results}{{B.5}{63}{Performance comparison of linear regression models across different feature representations (evaluated on dev set for overall scores)}{table.caption.34}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.2}Evaluation Subset}{63}{section.B.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.1}Part 1}{63}{subsection.B.2.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.6}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 1 only).}}{63}{table.caption.35}\protected@file@percent }
+\newlabel{table:part1_eval_results}{{B.6}{63}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 1 only)}{table.caption.35}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.2}Part 3}{63}{subsection.B.2.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.7}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 3 only).}}{63}{table.caption.36}\protected@file@percent }
+\newlabel{table:part3_eval_results}{{B.7}{63}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 3 only)}{table.caption.36}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.3}Part 4}{64}{subsection.B.2.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.8}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 4 only).}}{64}{table.caption.37}\protected@file@percent }
+\newlabel{table:part4_eval_results}{{B.8}{64}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 4 only)}{table.caption.37}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.4}Part 5}{64}{subsection.B.2.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.9}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 5 only).}}{64}{table.caption.38}\protected@file@percent }
+\newlabel{table:part5_eval_results}{{B.9}{64}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for part 5 only)}{table.caption.38}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2.5}Overall}{64}{subsection.B.2.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {B.10}{\ignorespaces Performance comparison of linear regression models across different feature representations (evaluated on eval set for overall scores).}}{64}{table.caption.39}\protected@file@percent }
+\newlabel{table:overall_eval_results}{{B.10}{64}{Performance comparison of linear regression models across different feature representations (evaluated on eval set for overall scores)}{table.caption.39}{}}
+\gdef \@abspage@last{67}

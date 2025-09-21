@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.3)  21 SEP 2025 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.3)  21 SEP 2025 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,106 +711,123 @@ Overfull \hbox (4.72816pt too wide) in paragraph at lines 132--133
  []
 
 [12{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [13]
+<images/overall_method_schematic.png, id=656, 652.4375pt x 693.59125pt>
+File: images/overall_method_schematic.png Graphic file (type png)
+<use images/overall_method_schematic.png>
+Package pdftex.def Info: images/overall_method_schematic.png  used on input line 177.
+(pdftex.def)             Requested size: 424.58624pt x 451.3793pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14] [15]
+[14] [15 <./images/overall_method_schematic.png>]
 Chapter 4.
 [16
 
 ] [17]
-Overfull \hbox (25.34439pt too wide) in paragraph at lines 237--250
+Overfull \hbox (25.34439pt too wide) in paragraph at lines 232--245
  [][] 
  []
 
 [18] [19]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 288.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 283.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
- [20] [21]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
+<images/calibration_schematic.png, id=762, 935.495pt x 556.0775pt>
+File: images/calibration_schematic.png Graphic file (type png)
+<use images/calibration_schematic.png>
+Package pdftex.def Info: images/calibration_schematic.png  used on input line 307.
+(pdftex.def)             Requested size: 424.58624pt x 252.38776pt.
+ [20] [21 <./images/calibration_schematic.png>]
 Chapter 5.
 [22
 
 ] [23] [24] [25]
-<images/actual_vs_predicted_orig.png, id=820, 705.3552pt x 414.8298pt>
+<images/actual_vs_predicted_orig.png, id=824, 705.3552pt x 414.8298pt>
 File: images/actual_vs_predicted_orig.png Graphic file (type png)
 <use images/actual_vs_predicted_orig.png>
-Package pdftex.def Info: images/actual_vs_predicted_orig.png  used on input line 438.
+Package pdftex.def Info: images/actual_vs_predicted_orig.png  used on input line 428.
 (pdftex.def)             Requested size: 424.58624pt x 249.70367pt.
-<images/actual_vs_predicted_all.png, id=822, 705.3552pt x 414.8298pt>
+<images/actual_vs_predicted_all.png, id=826, 705.3552pt x 414.8298pt>
 File: images/actual_vs_predicted_all.png Graphic file (type png)
 <use images/actual_vs_predicted_all.png>
-Package pdftex.def Info: images/actual_vs_predicted_all.png  used on input line 447.
+Package pdftex.def Info: images/actual_vs_predicted_all.png  used on input line 437.
 (pdftex.def)             Requested size: 424.58624pt x 249.70367pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/correlation_matrix_original.png, id=823, 805.8105pt x 704.6325pt>
+<images/correlation_matrix_original.png, id=827, 805.8105pt x 704.6325pt>
 File: images/correlation_matrix_original.png Graphic file (type png)
 <use images/correlation_matrix_original.png>
-Package pdftex.def Info: images/correlation_matrix_original.png  used on input line 462.
+Package pdftex.def Info: images/correlation_matrix_original.png  used on input line 452.
 (pdftex.def)             Requested size: 424.58624pt x 371.28159pt.
 [26 <./images/actual_vs_predicted_orig.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/correlation_matrix_rubric.png, id=834, 649.7073pt x 560.0925pt>
+<images/correlation_matrix_rubric.png, id=838, 649.7073pt x 560.0925pt>
 File: images/correlation_matrix_rubric.png Graphic file (type png)
 <use images/correlation_matrix_rubric.png>
-Package pdftex.def Info: images/correlation_matrix_rubric.png  used on input line 477.
+Package pdftex.def Info: images/correlation_matrix_rubric.png  used on input line 467.
 (pdftex.def)             Requested size: 424.58624pt x 366.03pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27 <./images/actual_vs_predicted_all.png>] [28 <./images/correlation_matrix_original.png>]
-<images/coefficients.png, id=849, 416.0343pt x 342.5598pt>
+<images/coefficients.png, id=853, 416.0343pt x 342.5598pt>
 File: images/coefficients.png Graphic file (type png)
 <use images/coefficients.png>
-Package pdftex.def Info: images/coefficients.png  used on input line 490.
+Package pdftex.def Info: images/coefficients.png  used on input line 480.
 (pdftex.def)             Requested size: 339.67029pt x 279.68294pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 <./images/correlation_matrix_rubric.png>]
+<images/question_scores_schematic.png, id=862, 955.57pt x 494.84875pt>
+File: images/question_scores_schematic.png Graphic file (type png)
+<use images/question_scores_schematic.png>
+Package pdftex.def Info: images/question_scores_schematic.png  used on input line 491.
+(pdftex.def)             Requested size: 424.58624pt x 219.87099pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/question_score_examples.png, id=858, 707.88464pt x 422.41815pt>
+<images/question_score_examples.png, id=863, 707.88464pt x 422.41815pt>
 File: images/question_score_examples.png Graphic file (type png)
 <use images/question_score_examples.png>
-Package pdftex.def Info: images/question_score_examples.png  used on input line 513.
+Package pdftex.def Info: images/question_score_examples.png  used on input line 498.
 (pdftex.def)             Requested size: 424.58624pt x 253.3626pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30 <./images/coefficients.png>]
-<images/low_data_regime_pcc.png, id=867, 712.1004pt x 422.5386pt>
+<images/low_data_regime_pcc.png, id=872, 712.1004pt x 422.5386pt>
 File: images/low_data_regime_pcc.png Graphic file (type png)
 <use images/low_data_regime_pcc.png>
-Package pdftex.def Info: images/low_data_regime_pcc.png  used on input line 526.
+Package pdftex.def Info: images/low_data_regime_pcc.png  used on input line 511.
 (pdftex.def)             Requested size: 424.58624pt x 251.9326pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/low_data_regime_rmse.png, id=868, 712.1004pt x 422.5386pt>
+<images/low_data_regime_rmse.png, id=873, 712.1004pt x 422.5386pt>
 File: images/low_data_regime_rmse.png Graphic file (type png)
 <use images/low_data_regime_rmse.png>
-Package pdftex.def Info: images/low_data_regime_rmse.png  used on input line 533.
+Package pdftex.def Info: images/low_data_regime_rmse.png  used on input line 518.
 (pdftex.def)             Requested size: 424.58624pt x 251.9326pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31] [32 <./images/question_score_examples.png>] [33 <./images/low_data_regime_pcc.png>] [34 <./images/low_data_regime_rmse.png>]
+[31 <./images/question_scores_schematic.png>] [32 <./images/question_score_examples.png>] [33 <./images/low_data_regime_pcc.png> <./images/low_data_regime_rmse.png>]
 Chapter 6.
-[35
+[34
 
-] [36] (./project_report - pg.bbl [37] [38
+] [35] (./project_report - pg.bbl [36] [37
 
 ]
 Underfull \hbox (badness 3635) in paragraph at lines 66--70
@@ -822,95 +839,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--70
 \OT1/cmtt/m/n/10 cambridgeenglish . org / Images / 605504-[]linguaskill-[]speaking-[]assessment-[]criteria .
  []
 
-[39] [40] [41] [42] [43] [44]) [45]
+[38] [39] [40] [41] [42] [43]) [44]
 Appendix A.
-[46
+[45
 
-] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 705--742
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--742
+] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 690--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--742
+Underfull \hbox (badness 10000) in paragraph at lines 690--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--742
+Underfull \hbox (badness 10000) in paragraph at lines 690--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--742
+Underfull \hbox (badness 10000) in paragraph at lines 690--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--742
+Underfull \hbox (badness 10000) in paragraph at lines 690--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--742
-
- []
-
-[48] [49] [50]
-Underfull \hbox (badness 10000) in paragraph at lines 796--834
+Underfull \hbox (badness 10000) in paragraph at lines 690--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--834
+Underfull \hbox (badness 10000) in paragraph at lines 690--727
+
+ []
+
+[47] [48] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 781--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--834
+Underfull \hbox (badness 10000) in paragraph at lines 781--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--834
+Underfull \hbox (badness 10000) in paragraph at lines 781--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--834
+Underfull \hbox (badness 10000) in paragraph at lines 781--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--834
+Underfull \hbox (badness 10000) in paragraph at lines 781--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--834
-
- []
-
-[51] [52] [53] [54] [55] [56]
-Underfull \hbox (badness 10000) in paragraph at lines 1051--1057
+Underfull \hbox (badness 10000) in paragraph at lines 781--819
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1051--1057
+Underfull \hbox (badness 10000) in paragraph at lines 781--819
 
  []
 
-[57] [58] [59] [60] [61]
+[50] [51] [52] [53] [54] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1042
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1042
+
+ []
+
+[56] [57] [58] [59] [60]
 Appendix B.
-[62
+[61
 
-] [63] [64] [65] (./project_report - pg.aux)
+] [62] [63] [64] (./project_report - pg.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -919,18 +936,18 @@ Package rerunfilecheck Info: File `"project_report - pg".out' has not changed.
 (rerunfilecheck)             Checksum: E9B968845BE9C93E1ABFAA30AE0D300E;8878.
  ) 
 Here is how much of TeX's memory you used:
- 29919 strings out of 474116
- 606979 string characters out of 5743682
+ 29937 strings out of 474116
+ 607777 string characters out of 5743682
  1976187 words of memory out of 5000000
- 51508 multiletter control sequences out of 15000+600000
+ 51527 multiletter control sequences out of 15000+600000
  570933 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,117p,4280b,1056s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "project_report - pg.pdf" (68 pages, 4420664 bytes).
+Output written on "project_report - pg.pdf" (67 pages, 4940345 bytes).
 PDF statistics:
- 1324 PDF objects out of 1440 (max. 8388607)
- 1156 compressed objects within 12 object streams
- 275 named destinations out of 1000 (max. 500000)
- 650 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1326 PDF objects out of 1440 (max. 8388607)
+ 1153 compressed objects within 12 object streams
+ 274 named destinations out of 1000 (max. 500000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
 

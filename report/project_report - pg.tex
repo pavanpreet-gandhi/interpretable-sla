@@ -174,13 +174,8 @@ $$\mathbf{z}_i = [\mathbf{z}_{i,1}; \mathbf{z}_{i,2}; \ldots; \mathbf{z}_{i,M}] 
 This procedure, applied to all $N$ audio samples in the dataset, yields a feature matrix $\mathbf{Z} \in \mathbb{R}^{N \times (M \times K)}$. Figure \ref{fig:question_based_approach} illustrates this feature extraction process.
 \begin{figure}[h]
   \centering
-  \fbox{
-    \begin{minipage}[c][18cm][c]{0.95\linewidth}
-      \centering
-      \textit{[Temporary placeholder for the question-based feature extraction diagram.]}
-    \end{minipage}
-  }
-  \caption{Schematic illustration of the question-based feature extraction process.}
+  \includegraphics[width=1\linewidth]{images/overall_method_schematic.png}
+  \caption{Schematic illustration of the question-based feature extraction process. The speech LLM is prompted to answer each question for every audio sample. The output probabilities for each option are collected into a table to form the interpretable feature matrix $\mathbf{Z}$, which is then used to train a regression model to predict the target variable (part scores).}
   \label{fig:question_based_approach}
 \end{figure}
 
@@ -309,13 +304,8 @@ The calibration procedure consists of two stages, as illustrated in Figure \ref{
 
 \begin{figure}[h]
   \centering
-  \fbox{
-    \begin{minipage}[c][10cm][c]{0.95\linewidth}
-      \centering
-      \textit{[Temporary placeholder for the two-stage calibration procedure diagram showing the linear transformations applied to predicted part scores followed by the linear transformation of the predicted overall score.]}
-    \end{minipage}
-  }
-  \caption{Illustration of the two-stage calibration procedure used to align predicted scores with ground-truth scores.}
+  \includegraphics[width=1\linewidth]{images/calibration_schematic.png}
+  \caption{Illustration of the two-stage calibration procedure used to align predicted scores with ground-truth scores. First, predictions from all files of a given speaker are averaged to obtain speaker-level scores (this is relevant for parts 1 and 5 where multiple files exist per speaker). Next, a linear calibration is applied to each part's predicted scores. The overall predicted score is computed as the average of the calibrated part scores, followed by a second linear calibration to align with ground-truth overall scores. Note that each linear calibration has its own slope and intercept parameters that are fitted on the dev set.}
   \label{fig:calibration_procedure}
 \end{figure}
 
@@ -498,13 +488,8 @@ To address the interpretability challenges posed by multicollinearity while main
 
 \begin{figure}[h]
   \centering
-  \fbox{
-    \begin{minipage}[c][12cm][c]{0.95\linewidth}
-      \centering
-      \textit{[Temporary placeholder for the question-level scores methodology diagram showing how features from different rubric dimensions are used to train separate regression models to produce analytic scores for each criterion.]}
-    \end{minipage}
-  }
-  \caption{Illustration of the question-level scores methodology for decomposing holistic scores into analytic scores across different rubric dimensions.}
+  \includegraphics[width=1\linewidth]{images/question_scores_schematic.png}
+  \caption{Illustration of the question-level scores methodology for obtaining analytic scores for each question. Separate linear models are trained to predict the same target variable (part score) for each question using only features corresponding to that question, and the predictions from these models are interpreted as question-level scores.}
   \label{fig:question_level_methodology}
 \end{figure}
 

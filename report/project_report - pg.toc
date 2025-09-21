@@ -30,27 +30,27 @@
 \contentsline {subsection}{\numberline {5.5.2}Regression Coefficients}{29}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}Question-level Scores}{30}{subsection.5.5.3}%
 \contentsline {section}{\numberline {5.6}Low Data Regime}{31}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Conclusion}{35}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Summary of Findings}{35}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Implications for SLA and Educational Technology}{36}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Limitations and Future Work}{36}{section.6.3}%
-\contentsline {chapter}{\numberline {A}Full Question Sets and Prompts}{46}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Initial Question Set}{46}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Direct Scoring Prompt}{48}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Rubric-based Question Set}{50}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Rubric-based Question Set Batch Prompt}{51}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Revised Question Set}{53}{section.A.5}%
-\contentsline {section}{\numberline {A.6}Revised Question Set Batch Prompt}{57}{section.A.6}%
-\contentsline {chapter}{\numberline {B}Additional Results}{62}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Development Subset}{62}{section.B.1}%
-\contentsline {subsection}{\numberline {B.1.1}Part 1}{62}{subsection.B.1.1}%
-\contentsline {subsection}{\numberline {B.1.2}Part 3}{63}{subsection.B.1.2}%
-\contentsline {subsection}{\numberline {B.1.3}Part 4}{63}{subsection.B.1.3}%
-\contentsline {subsection}{\numberline {B.1.4}Part 5}{63}{subsection.B.1.4}%
-\contentsline {subsection}{\numberline {B.1.5}Overall}{63}{subsection.B.1.5}%
-\contentsline {section}{\numberline {B.2}Evaluation Subset}{64}{section.B.2}%
-\contentsline {subsection}{\numberline {B.2.1}Part 1}{64}{subsection.B.2.1}%
-\contentsline {subsection}{\numberline {B.2.2}Part 3}{64}{subsection.B.2.2}%
-\contentsline {subsection}{\numberline {B.2.3}Part 4}{65}{subsection.B.2.3}%
-\contentsline {subsection}{\numberline {B.2.4}Part 5}{65}{subsection.B.2.4}%
-\contentsline {subsection}{\numberline {B.2.5}Overall}{65}{subsection.B.2.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{34}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of Findings}{34}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Implications for SLA and Educational Technology}{35}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Limitations and Future Work}{35}{section.6.3}%
+\contentsline {chapter}{\numberline {A}Full Question Sets and Prompts}{45}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Initial Question Set}{45}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Direct Scoring Prompt}{47}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Rubric-based Question Set}{49}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Rubric-based Question Set Batch Prompt}{50}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Revised Question Set}{52}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Revised Question Set Batch Prompt}{56}{section.A.6}%
+\contentsline {chapter}{\numberline {B}Additional Results}{61}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Development Subset}{61}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Part 1}{61}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}Part 3}{62}{subsection.B.1.2}%
+\contentsline {subsection}{\numberline {B.1.3}Part 4}{62}{subsection.B.1.3}%
+\contentsline {subsection}{\numberline {B.1.4}Part 5}{62}{subsection.B.1.4}%
+\contentsline {subsection}{\numberline {B.1.5}Overall}{62}{subsection.B.1.5}%
+\contentsline {section}{\numberline {B.2}Evaluation Subset}{63}{section.B.2}%
+\contentsline {subsection}{\numberline {B.2.1}Part 1}{63}{subsection.B.2.1}%
+\contentsline {subsection}{\numberline {B.2.2}Part 3}{63}{subsection.B.2.2}%
+\contentsline {subsection}{\numberline {B.2.3}Part 4}{64}{subsection.B.2.3}%
+\contentsline {subsection}{\numberline {B.2.4}Part 5}{64}{subsection.B.2.4}%
+\contentsline {subsection}{\numberline {B.2.5}Overall}{64}{subsection.B.2.5}%
