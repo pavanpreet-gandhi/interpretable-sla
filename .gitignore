@@ -1,0 +1,19 @@
+# Temporary notebooks
+*temp*.ipynb
+
+# macOS system files
+.DS_Store
+
+# Data Loading Script
+source/load_data.sh
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
