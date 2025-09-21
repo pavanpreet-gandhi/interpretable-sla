@@ -1,0 +1,348 @@
+\begin{thebibliography}{63}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[apa(2013)]{apache_parquet}
+Apache parquet: A columnar storage file format.
+\newblock \url{https://parquet.apache.org}, 2013.
+\newblock Accessed: YYYY‐MM‐DD.
+
+\bibitem[Baevski et~al.(2020)Baevski, Zhou, Mohamed, and Auli]{baevski2020wav2vec20frameworkselfsupervised}
+Alexei Baevski, Henry Zhou, Abdelrahman Mohamed, and Michael Auli.
+\newblock wav2vec 2.0: A framework for self-supervised learning of speech representations, 2020.
+\newblock URL \url{https://arxiv.org/abs/2006.11477}.
+
+\bibitem[Balek et~al.(2025)Balek, Sýkora, Sklenák, and Kliegr]{balek2025llmbasedfeaturegenerationtext}
+Vojtěch Balek, Lukáš Sýkora, Vilém Sklenák, and Tomáš Kliegr.
+\newblock Llm-based feature generation from text for interpretable machine learning, 2025.
+\newblock URL \url{https://arxiv.org/abs/2409.07132}.
+
+\bibitem[Balestriero et~al.(2023)Balestriero, Ibrahim, Sobal, Morcos, Shekhar, Goldstein, Bordes, Bardes, Mialon, Tian, Schwarzschild, Wilson, Geiping, Garrido, Fernandez, Bar, Pirsiavash, LeCun, and Goldblum]{balestriero2023cookbookselfsupervisedlearning}
+Randall Balestriero, Mark Ibrahim, Vlad Sobal, Ari Morcos, Shashank Shekhar, Tom Goldstein, Florian Bordes, Adrien Bardes, Gregoire Mialon, Yuandong Tian, Avi Schwarzschild, Andrew~Gordon Wilson, Jonas Geiping, Quentin Garrido, Pierre Fernandez, Amir Bar, Hamed Pirsiavash, Yann LeCun, and Micah Goldblum.
+\newblock A cookbook of self-supervised learning, 2023.
+\newblock URL \url{https://arxiv.org/abs/2304.12210}.
+
+\bibitem[Bann{\`o} et~al.(2024)Bann{\`o}, Vydana, Knill, and Gales]{banno-etal-2024-gpt}
+Stefano Bann{\`o}, Hari~K. Vydana, Kate~M. Knill, and Mark J.~F. Gales.
+\newblock Can {GPT}-4 do {L}2 analytic assessment?
+\newblock In Ekaterina Kochmar, Marie Bexte, Jill Burstein, Andrea Horbach, Ronja Laarmann-Quante, Ana{\"i}s Tack, Victoria Yaneva, and Zheng Yuan, editors, \emph{Proceedings of the 19th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2024)}, pages 149--164, Mexico City, Mexico, June 2024. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/2024.bea-1.14/}.
+
+\bibitem[Bannò and Matassoni(2022)]{bannò2022proficiencyassessmentl2spoken}
+Stefano Bannò and Marco Matassoni.
+\newblock Proficiency assessment of l2 spoken english using wav2vec 2.0, 2022.
+\newblock URL \url{https://arxiv.org/abs/2210.13168}.
+
+\bibitem[Bannò et~al.(2022)Bannò, Knill, Matassoni, Raina, and Gales]{bannò2022l2proficiencyassessmentusing}
+Stefano Bannò, Kate~M. Knill, Marco Matassoni, Vyas Raina, and Mark J.~F. Gales.
+\newblock L2 proficiency assessment using self-supervised speech representations, 2022.
+\newblock URL \url{https://arxiv.org/abs/2211.08849}.
+
+\bibitem[Beltagy et~al.(2020)Beltagy, Peters, and Cohan]{beltagy2020longformerlongdocumenttransformer}
+Iz~Beltagy, Matthew~E. Peters, and Arman Cohan.
+\newblock Longformer: The long-document transformer, 2020.
+\newblock URL \url{https://arxiv.org/abs/2004.05150}.
+
+\bibitem[Benara et~al.(2024)Benara, Singh, Morris, Antonello, Stoica, Huth, and Gao]{benara2024craftinginterpretableembeddingsasking}
+Vinamra Benara, Chandan Singh, John~X. Morris, Richard Antonello, Ion Stoica, Alexander~G. Huth, and Jianfeng Gao.
+\newblock Crafting interpretable embeddings by asking llms questions, 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.16714}.
+
+\bibitem[Bernstein et~al.(1990)Bernstein, Cohen, Murveit, Rtischev, and Weintraub]{bernstein90_icslp}
+Jared Bernstein, Michael Cohen, Hy~Murveit, Dimitry Rtischev, and Mitchel Weintraub.
+\newblock Automatic evaluation and training in english pronunciation.
+\newblock In \emph{First International Conference on Spoken Language Processing (ICSLP 1990)}, pages 1185--1188, 1990.
+\newblock \doi{10.21437/ICSLP.1990-313}.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert-Voss, Krueger, Henighan, Child, Ramesh, Ziegler, Wu, Winter, Hesse, Chen, Sigler, Litwin, Gray, Chess, Clark, Berner, McCandlish, Radford, Sutskever, and Amodei]{gpt3}
+Tom~B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel~M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei.
+\newblock Language models are few-shot learners, 2020.
+\newblock URL \url{https://arxiv.org/abs/2005.14165}.
+
+\bibitem[{Cambridge English}(2020)]{cambridge2020linguaskill}
+{Cambridge English}.
+\newblock Linguaskill speaking global assessment criteria.
+\newblock \url{https://www.cambridgeenglish.org/Images/605504-linguaskill-speaking-assessment-criteria.pdf}, 2020.
+\newblock Accessed: 2025-09-10.
+
+\bibitem[Chen et~al.(2020)Chen, Kornblith, Norouzi, and Hinton]{chen2020simpleframeworkcontrastivelearning}
+Ting Chen, Simon Kornblith, Mohammad Norouzi, and Geoffrey Hinton.
+\newblock A simple framework for contrastive learning of visual representations, 2020.
+\newblock URL \url{https://arxiv.org/abs/2002.05709}.
+
+\bibitem[Cheng et~al.(2023)Cheng, Kasai, and Yu]{cheng2023batchpromptingefficientinference}
+Zhoujun Cheng, Jungo Kasai, and Tao Yu.
+\newblock Batch prompting: Efficient inference with large language model apis, 2023.
+\newblock URL \url{https://arxiv.org/abs/2301.08721}.
+
+\bibitem[Chu et~al.(2025)Chu, Kim, Wong, and Yi]{chu2025rationaleessayscoresenhancing}
+SeongYeub Chu, JongWoo Kim, Bryan Wong, and MunYong Yi.
+\newblock Rationale behind essay scores: Enhancing s-llm's multi-trait essay scoring with rationale generated by llms, 2025.
+\newblock URL \url{https://arxiv.org/abs/2410.14202}.
+
+\bibitem[Chu et~al.(2023)Chu, Xu, Zhou, Yang, Zhang, Yan, Zhou, and Zhou]{chu2023qwenaudioadvancinguniversalaudio}
+Yunfei Chu, Jin Xu, Xiaohuan Zhou, Qian Yang, Shiliang Zhang, Zhijie Yan, Chang Zhou, and Jingren Zhou.
+\newblock Qwen-audio: Advancing universal audio understanding via unified large-scale audio-language models, 2023.
+\newblock URL \url{https://arxiv.org/abs/2311.07919}.
+
+\bibitem[Chu et~al.(2024)Chu, Xu, Yang, Wei, Wei, Guo, Leng, Lv, He, Lin, Zhou, and Zhou]{chu2024qwen2audiotechnicalreport}
+Yunfei Chu, Jin Xu, Qian Yang, Haojie Wei, Xipin Wei, Zhifang Guo, Yichong Leng, Yuanjun Lv, Jinzheng He, Junyang Lin, Chang Zhou, and Jingren Zhou.
+\newblock Qwen2-audio technical report, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.10759}.
+
+\bibitem[{Council of Europe}(2001)]{CouncilOfEurope2001CEFR}
+{Council of Europe}.
+\newblock \emph{Common European Framework of Reference for Languages: Learning, Teaching, Assessment}.
+\newblock Cambridge University Press, Cambridge, 2001.
+
+\bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and Toutanova]{devlin2019bertpretrainingdeepbidirectional}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language understanding, 2019.
+\newblock URL \url{https://arxiv.org/abs/1810.04805}.
+
+\bibitem[Do et~al.(2024)Do, Kim, and Lee]{do2024autoregressivescoregenerationmultitrait}
+Heejin Do, Yunsu Kim, and Gary~Geunbae Lee.
+\newblock Autoregressive score generation for multi-trait essay scoring, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.08332}.
+
+\bibitem[Eltanbouly et~al.(2025)Eltanbouly, Albatarni, and Elsayed]{eltanbouly2025tratestraitspecificrubricassistedcrossprompt}
+Sohaila Eltanbouly, Salam Albatarni, and Tamer Elsayed.
+\newblock Trates: Trait-specific rubric-assisted cross-prompt essay scoring, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.14577}.
+
+\bibitem[Fu et~al.(2024)Fu, Peng, Yang, and Zhou]{fu2024pronunciationassessmentmultimodallarge}
+Kaiqi Fu, Linkai Peng, Nan Yang, and Shuran Zhou.
+\newblock Pronunciation assessment with multi-modal large language models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.09209}.
+
+\bibitem[Galton(1886)]{galton_1886_1449548}
+Francis Galton.
+\newblock Regression towards mediocrity in hereditary stature., January 1886.
+\newblock URL \url{https://doi.org/10.2307/2841583}.
+
+\bibitem[Ghosh et~al.(2024)Ghosh, Kumar, Seth, Evuru, Tyagi, Sakshi, Nieto, Duraiswami, and Manocha]{ghosh2024gamalargeaudiolanguagemodel}
+Sreyan Ghosh, Sonal Kumar, Ashish Seth, Chandra Kiran~Reddy Evuru, Utkarsh Tyagi, S~Sakshi, Oriol Nieto, Ramani Duraiswami, and Dinesh Manocha.
+\newblock Gama: A large audio-language model with advanced audio understanding and complex reasoning abilities, 2024.
+\newblock URL \url{https://arxiv.org/abs/2406.11768}.
+
+\bibitem[Hsu et~al.(2021)Hsu, Bolte, Tsai, Lakhotia, Salakhutdinov, and Mohamed]{hsu2021hubertselfsupervisedspeechrepresentation}
+Wei-Ning Hsu, Benjamin Bolte, Yao-Hung~Hubert Tsai, Kushal Lakhotia, Ruslan Salakhutdinov, and Abdelrahman Mohamed.
+\newblock Hubert: Self-supervised speech representation learning by masked prediction of hidden units, 2021.
+\newblock URL \url{https://arxiv.org/abs/2106.07447}.
+
+\bibitem[Hu et~al.(2021)Hu, Shen, Wallis, Allen-Zhu, Li, Wang, Wang, and Chen]{hu2021loralowrankadaptationlarge}
+Edward~J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu~Wang, and Weizhu Chen.
+\newblock Lora: Low-rank adaptation of large language models, 2021.
+\newblock URL \url{https://arxiv.org/abs/2106.09685}.
+
+\bibitem[Kim et~al.(2022)Kim, Jeon, Seo, and Kim]{kim2022automaticpronunciationassessmentusing}
+Eesung Kim, Jae-Jin Jeon, Hyeji Seo, and Hoon Kim.
+\newblock Automatic pronunciation assessment using self-supervised speech representation learning, 2022.
+\newblock URL \url{https://arxiv.org/abs/2204.03863}.
+
+\bibitem[Knill et~al.(2024)Knill, Nicholls, Gales, Qian, and Stroinski]{knill2024sandi}
+Kate Knill, Diane Nicholls, Mark~J.F. Gales, Mengjie Qian, and Pawel Stroinski.
+\newblock Speak \& improve corpus 2025: an l2 english speech corpus for language assessment and feedback.
+\newblock \emph{arXiv preprint arXiv:2412.11986}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2412.11986}.
+
+\bibitem[Kwon et~al.(2023)Kwon, Li, Zhuang, Sheng, Zheng, Yu, Gonzalez, Zhang, and Stoica]{kwon2023efficientmemorymanagementlarge}
+Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody~Hao Yu, Joseph~E. Gonzalez, Hao Zhang, and Ion Stoica.
+\newblock Efficient memory management for large language model serving with pagedattention, 2023.
+\newblock URL \url{https://arxiv.org/abs/2309.06180}.
+
+\bibitem[Lee et~al.(2024)Lee, Cai, Meng, Wang, and Wu]{lee2024unleashinglargelanguagemodels}
+Sanwoo Lee, Yida Cai, Desong Meng, Ziyang Wang, and Yunfang Wu.
+\newblock Unleashing large language models' proficiency in zero-shot essay scoring, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.04941}.
+
+\bibitem[Liusie et~al.(2023)Liusie, Manakul, and Gales]{liusie2023mitigatingwordbiaszeroshot}
+Adian Liusie, Potsawee Manakul, and Mark J.~F. Gales.
+\newblock Mitigating word bias in zero-shot prompt-based classifiers, 2023.
+\newblock URL \url{https://arxiv.org/abs/2309.04992}.
+
+\bibitem[Ludlow(2020)]{Ludlow2020OfficialQuick}
+Karen Ludlow.
+\newblock \emph{Official Quick Guide to Linguaskill}.
+\newblock Cambridge University Press, 2020.
+\newblock ISBN 978-1108885256.
+
+\bibitem[Ma et~al.(2025)Ma, Qian, Tang, Bannò, Knill, and Gales]{ma2025assessment}
+Rao Ma, Mengjie Qian, Siyuan Tang, Stefano Bannò, Kate~M. Knill, and Mark~J.F. Gales.
+\newblock Assessment of l2 oral proficiency using speech large language models.
+\newblock \emph{arXiv preprint arXiv:2505.21148}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.21148}.
+
+\bibitem[Mansour et~al.(2024)Mansour, Albatarni, Eltanbouly, and Elsayed]{mansour2024largelanguagemodelsautomatically}
+Watheq Mansour, Salam Albatarni, Sohaila Eltanbouly, and Tamer Elsayed.
+\newblock Can large language models automatically score proficiency of written essays?, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.06149}.
+
+\bibitem[Mathias and Bhattacharyya(2018)]{mathias-bhattacharyya-2018-asap}
+Sandeep Mathias and Pushpak Bhattacharyya.
+\newblock {ASAP}++: Enriching the {ASAP} automated essay grading dataset with essay attribute scores.
+\newblock In Nicoletta Calzolari, Khalid Choukri, Christopher Cieri, Thierry Declerck, Sara Goggi, Koiti Hasida, Hitoshi Isahara, Bente Maegaard, Joseph Mariani, H{\'e}l{\`e}ne Mazo, Asuncion Moreno, Jan Odijk, Stelios Piperidis, and Takenobu Tokunaga, editors, \emph{Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)}, Miyazaki, Japan, May 2018. European Language Resources Association (ELRA).
+\newblock URL \url{https://aclanthology.org/L18-1187/}.
+
+\bibitem[McInerney et~al.(2023)McInerney, Young, van~de Meent, and Wallace]{mcinerney2023chillzeroshotcustominterpretable}
+Denis~Jered McInerney, Geoffrey Young, Jan-Willem van~de Meent, and Byron~C. Wallace.
+\newblock Chill: Zero-shot custom interpretable feature extraction from clinical notes with large language models, 2023.
+\newblock URL \url{https://arxiv.org/abs/2302.12343}.
+
+\bibitem[McKnight et~al.(2023)McKnight, Civelekoglu, Gales, Banno, Liusie, and Knill]{mcknight_civelekoglu_gales_banno_liusie_knill_2023}
+Simon~Webster McKnight, Arda Civelekoglu, Mark~JF Gales, Stefano Banno, Adian Liusie, and Kate~M Knill.
+\newblock Automatic assessment of conversational speaking tests.
+\newblock 2023.
+\newblock \doi{10.17863/CAM.99725}.
+\newblock URL \url{https://www.repository.cam.ac.uk/handle/1810/353637}.
+
+\bibitem[Microsoft et~al.(2025)Microsoft, :, Abouelenin, Ashfaq, Atkinson, Awadalla, Bach, Bao, Benhaim, Cai, Chaudhary, Chen, Chen, Chen, Chen, Chen, Chen, ling Chen, Dai, Dai, Fan, Gao, Gao, Garg, Goswami, Hao, Hendy, Hu, Jin, Khademi, Kim, Kim, Lee, Li, Li, Liang, Lin, Lin, Liu, Liu, Lopez, Luo, Madan, Mazalov, Mitra, Mousavi, Nguyen, Pan, Perez-Becker, Platin, Portet, Qiu, Ren, Ren, Roy, Shang, Shen, Singhal, Som, Song, Sych, Vaddamanu, Wang, Wang, Wang, Wu, Xu, Xu, Yang, Yang, Yu, Zabir, Zhang, Zhang, Zhang, and Zhou]{microsoft2025phi4minitechnicalreportcompact}
+Microsoft, :, Abdelrahman Abouelenin, Atabak Ashfaq, Adam Atkinson, Hany Awadalla, Nguyen Bach, Jianmin Bao, Alon Benhaim, Martin Cai, Vishrav Chaudhary, Congcong Chen, Dong Chen, Dongdong Chen, Junkun Chen, Weizhu Chen, Yen-Chun Chen, Yi~ling Chen, Qi~Dai, Xiyang Dai, Ruchao Fan, Mei Gao, Min Gao, Amit Garg, Abhishek Goswami, Junheng Hao, Amr Hendy, Yuxuan Hu, Xin Jin, Mahmoud Khademi, Dongwoo Kim, Young~Jin Kim, Gina Lee, Jinyu Li, Yunsheng Li, Chen Liang, Xihui Lin, Zeqi Lin, Mengchen Liu, Yang Liu, Gilsinia Lopez, Chong Luo, Piyush Madan, Vadim Mazalov, Arindam Mitra, Ali Mousavi, Anh Nguyen, Jing Pan, Daniel Perez-Becker, Jacob Platin, Thomas Portet, Kai Qiu, Bo~Ren, Liliang Ren, Sambuddha Roy, Ning Shang, Yelong Shen, Saksham Singhal, Subhojit Som, Xia Song, Tetyana Sych, Praneetha Vaddamanu, Shuohang Wang, Yiming Wang, Zhenghao Wang, Haibin Wu, Haoran Xu, Weijian Xu, Yifan Yang, Ziyi Yang, Donghan Yu, Ishmam Zabir, Jianwen Zhang, Li~Lyna Zhang, Yunan Zhang, and Xiren Zhou.
+\newblock Phi-4-mini technical report: Compact yet powerful multimodal language models via mixture-of-loras, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.01743}.
+
+\bibitem[Mizumoto and Eguchi(2023)]{aes_gpt3}
+Atsushi Mizumoto and Masaki Eguchi.
+\newblock Exploring the potential of using an ai language model for automated essay scoring.
+\newblock \emph{Research Methods in Applied Linguistics}, 2\penalty0 (2), August 2023.
+\newblock ISSN 2772-7661.
+\newblock \doi{10.1016/j.rmal.2023.100050}.
+\newblock Publisher Copyright: {\textcopyright} 2023 The Author(s).
+
+\bibitem[Naismith et~al.(2023)Naismith, Mulcaire, and Burstein]{naismith-etal-2023-automated}
+Ben Naismith, Phoebe Mulcaire, and Jill Burstein.
+\newblock Automated evaluation of written discourse coherence using {GPT}-4.
+\newblock In Ekaterina Kochmar, Jill Burstein, Andrea Horbach, Ronja Laarmann-Quante, Nitin Madnani, Ana{\"i}s Tack, Victoria Yaneva, Zheng Yuan, and Torsten Zesch, editors, \emph{Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)}, pages 394--403, Toronto, Canada, July 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.bea-1.32}.
+\newblock URL \url{https://aclanthology.org/2023.bea-1.32/}.
+
+\bibitem[OpenAI et~al.(2024)OpenAI, Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, Avila, Babuschkin, Balaji, Balcom, Baltescu, Bao, Bavarian, Belgum, Bello, Berdine, Bernadett-Shapiro, Berner, Bogdonoff, Boiko, Boyd, Brakman, Brockman, Brooks, Brundage, Button, Cai, Campbell, Cann, Carey, Carlson, Carmichael, Chan, Chang, Chantzis, Chen, Chen, Chen, Chen, Chen, Chess, Cho, Chu, Chung, Cummings, Currier, Dai, Decareaux, Degry, Deutsch, Deville, Dhar, Dohan, Dowling, Dunning, Ecoffet, Eleti, Eloundou, Farhi, Fedus, Felix, Fishman, Forte, Fulford, Gao, Georges, Gibson, Goel, Gogineni, Goh, Gontijo-Lopes, Gordon, Grafstein, Gray, Greene, Gross, Gu, Guo, Hallacy, Han, Harris, He, Heaton, Heidecke, Hesse, Hickey, Hickey, Hoeschele, Houghton, Hsu, Hu, Hu, Huizinga, Jain, Jain, Jang, Jiang, Jiang, Jin, Jin, Jomoto, Jonn, Jun, Kaftan, Łukasz Kaiser, Kamali, Kanitscheider, Keskar, Khan, Kilpatrick, Kim, Kim, Kim, Kirchner, Kiros, Knight, Kokotajlo, Łukasz Kondraciuk, Kondrich, Konstantinidis, Kosic, Krueger, Kuo, Lampe, Lan, Lee, Leike, Leung, Levy, Li, Lim, Lin, Lin, Litwin, Lopez, Lowe, Lue, Makanju, Malfacini, Manning, Markov, Markovski, Martin, Mayer, Mayne, McGrew, McKinney, McLeavey, McMillan, McNeil, Medina, Mehta, Menick, Metz, Mishchenko, Mishkin, Monaco, Morikawa, Mossing, Mu, Murati, Murk, Mély, Nair, Nakano, Nayak, Neelakantan, Ngo, Noh, Ouyang, O'Keefe, Pachocki, Paino, Palermo, Pantuliano, Parascandolo, Parish, Parparita, Passos, Pavlov, Peng, Perelman, de~Avila Belbute~Peres, Petrov, de~Oliveira~Pinto, Michael, Pokorny, Pokrass, Pong, Powell, Power, Power, Proehl, Puri, Radford, Rae, Ramesh, Raymond, Real, Rimbach, Ross, Rotsted, Roussez, Ryder, Saltarelli, Sanders, Santurkar, Sastry, Schmidt, Schnurr, Schulman, Selsam, Sheppard, Sherbakov, Shieh, Shoker, Shyam, Sidor, Sigler, Simens, Sitkin, Slama, Sohl, Sokolowsky, Song, Staudacher, Such, Summers, Sutskever, Tang, Tezak, Thompson, Tillet, Tootoonchian, Tseng, Tuggle, Turley, Tworek, Uribe, Vallone, Vijayvergiya, Voss, Wainwright, Wang, Wang, Wang, Ward, Wei, Weinmann, Welihinda, Welinder, Weng, Weng, Wiethoff, Willner, Winter, Wolrich, Wong, Workman, Wu, Wu, Wu, Xiao, Xu, Yoo, Yu, Yuan, Zaremba, Zellers, Zhang, Zhang, Zhao, Zheng, Zhuang, Zhuk, and Zoph]{openai2024gpt4technicalreport}
+OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia~Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom, Paul Baltescu, Haiming Bao, Mohammad Bavarian, Jeff Belgum, Irwan Bello, Jake Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben Chess, Chester Cho, Casey Chu, Hyung~Won Chung, Dave Cummings, Jeremiah Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix, Simón~Posada Fishman, Juston Forte, Isabella Fulford, Leo Gao, Elie Georges, Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes, Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross, Shixiang~Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey, Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost Huizinga, Shantanu Jain, Shawn Jain, Joanne Jang, Angela Jiang, Roger Jiang, Haozhun Jin, Denny Jin, Shino Jomoto, Billie Jonn, Heewoo Jun, Tomer Kaftan, Łukasz Kaiser, Ali Kamali, Ingmar Kanitscheider, Nitish~Shirish Keskar, Tabarak Khan, Logan Kilpatrick, Jong~Wook Kim, Christina Kim, Yongjik Kim, Jan~Hendrik Kirchner, Jamie Kiros, Matt Knight, Daniel Kokotajlo, Łukasz Kondraciuk, Andrew Kondrich, Aris Konstantinidis, Kyle Kosic, Gretchen Krueger, Vishal Kuo, Michael Lampe, Ikai Lan, Teddy Lee, Jan Leike, Jade Leung, Daniel Levy, Chak~Ming Li, Rachel Lim, Molly Lin, Stephanie Lin, Mateusz Litwin, Theresa Lopez, Ryan Lowe, Patricia Lue, Anna Makanju, Kim Malfacini, Sam Manning, Todor Markov, Yaniv Markovski, Bianca Martin, Katie Mayer, Andrew Mayne, Bob McGrew, Scott~Mayer McKinney, Christine McLeavey, Paul McMillan, Jake McNeil, David Medina, Aalok Mehta, Jacob Menick, Luke Metz, Andrey Mishchenko, Pamela Mishkin, Vinnie Monaco, Evan Morikawa, Daniel Mossing, Tong Mu, Mira Murati, Oleg Murk, David Mély, Ashvin Nair, Reiichiro Nakano, Rajeev Nayak, Arvind Neelakantan, Richard Ngo, Hyeonwoo Noh, Long Ouyang, Cullen O'Keefe, Jakub Pachocki, Alex Paino, Joe Palermo, Ashley Pantuliano, Giambattista Parascandolo, Joel Parish, Emy Parparita, Alex Passos, Mikhail Pavlov, Andrew Peng, Adam Perelman, Filipe de~Avila Belbute~Peres, Michael Petrov, Henrique~Ponde de~Oliveira~Pinto, Michael, Pokorny, Michelle Pokrass, Vitchyr~H. Pong, Tolly Powell, Alethea Power, Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae, Aditya Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob Rotsted, Henri Roussez, Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani Santurkar, Girish Sastry, Heather Schmidt, David Schnurr, John Schulman, Daniel Selsam, Kyla Sheppard, Toki Sherbakov, Jessica Shieh, Sarah Shoker, Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan Sitkin, Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher, Felipe~Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas Tezak, Madeleine~B. Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth Tseng, Preston Tuggle, Nick Turley, Jerry Tworek, Juan Felipe~Cerón Uribe, Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll Wainwright, Justin~Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ~Weinmann, Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave Willner, Clemens Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin Wu, Jeff Wu, Michael Wu, Kai Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan, Wojciech Zaremba, Rowan Zellers, Chong Zhang, Marvin Zhang, Shengjia Zhao, Tianhao Zheng, Juntang Zhuang, William Zhuk, and Barret Zoph.
+\newblock Gpt-4 technical report, 2024.
+\newblock URL \url{https://arxiv.org/abs/2303.08774}.
+
+\bibitem[Page(1966)]{page1966}
+Ellis~B. Page.
+\newblock The imminence of... grading essays by computer.
+\newblock \emph{The Phi Delta Kappan}, 47\penalty0 (5):\penalty0 238--243, 1966.
+\newblock ISSN 00317217.
+\newblock URL \url{http://www.jstor.org/stable/20371545}.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos, Cournapeau, Brucher, Perrot, and Duchesnay]{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel, M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos, D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock \emph{Journal of Machine Learning Research}, 12:\penalty0 2825--2830, 2011.
+
+\bibitem[Peng et~al.(2021)Peng, Fu, Lin, Ke, and Zhan]{peng21e_interspeech}
+Linkai Peng, Kaiqi Fu, Binghuai Lin, Dengfeng Ke, and Jinsong Zhan.
+\newblock A study on fine-tuning wav2vec2.0 model for the task of mispronunciation detection and diagnosis.
+\newblock In \emph{Interspeech 2021}, pages 4448--4452, 2021.
+\newblock \doi{10.21437/Interspeech.2021-1344}.
+
+\bibitem[Qian et~al.(2024)Qian, Knill, Bannò, Tang, Karanasou, Gales, and Nicholls]{qian2024sandi}
+Mengjie Qian, Kate Knill, Stefano Bannò, Siyuan Tang, Penny Karanasou, Mark~J.F. Gales, and Diane Nicholls.
+\newblock Speak \& improve challenge 2025: Tasks and baseline systems.
+\newblock \emph{arXiv preprint arXiv:2412.11985}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2412.11985}.
+
+\bibitem[Qian et~al.(2012)Qian, Meng, and Soong]{qian12c_interspeech}
+Xiaojun Qian, Helen Meng, and Frank~K. Soong.
+\newblock The use of dbn-hmms for mispronunciation detection and diagnosis in l2 english to support computer-aided pronunciation training.
+\newblock In \emph{Interspeech 2012}, pages 775--778, 2012.
+\newblock \doi{10.21437/Interspeech.2012-238}.
+
+\bibitem[Radford et~al.(2022{\natexlab{a}})Radford, Kim, Xu, Brockman, McLeavey, and Sutskever]{radford2022robustspeechrecognitionlargescale}
+Alec Radford, Jong~Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, and Ilya Sutskever.
+\newblock Robust speech recognition via large-scale weak supervision, 2022{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2212.04356}.
+
+\bibitem[Radford et~al.(2022{\natexlab{b}})Radford, Kim, Xu, Brockman, McLeavey, and Sutskever]{whisper}
+Alec Radford, Jong~Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, and Ilya Sutskever.
+\newblock Robust speech recognition via large-scale weak supervision, 2022{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2212.04356}.
+
+\bibitem[Raffel et~al.(2023)Raffel, Shazeer, Roberts, Lee, Narang, Matena, Zhou, Li, and Liu]{raffel2023exploringlimitstransferlearning}
+Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter~J. Liu.
+\newblock Exploring the limits of transfer learning with a unified text-to-text transformer, 2023.
+\newblock URL \url{https://arxiv.org/abs/1910.10683}.
+
+\bibitem[Raina et~al.(2020)Raina, Gales, and Knill]{raina20_interspeech}
+Vyas Raina, Mark~J.F. Gales, and Kate~M. Knill.
+\newblock Universal adversarial attacks on spoken language assessment systems.
+\newblock In \emph{Interspeech 2020}, pages 3855--3859, 2020.
+\newblock \doi{10.21437/Interspeech.2020-1890}.
+
+\bibitem[Rubenstein et~al.(2023)Rubenstein, Asawaroengchai, Nguyen, Bapna, Borsos, de~Chaumont~Quitry, Chen, Badawy, Han, Kharitonov, Muckenhirn, Padfield, Qin, Rozenberg, Sainath, Schalkwyk, Sharifi, Ramanovich, Tagliasacchi, Tudor, Velimirović, Vincent, Yu, Wang, Zayats, Zeghidour, Zhang, Zhang, Zilka, and Frank]{rubenstein2023audiopalmlargelanguagemodel}
+Paul~K. Rubenstein, Chulayuth Asawaroengchai, Duc~Dung Nguyen, Ankur Bapna, Zalán Borsos, Félix de~Chaumont~Quitry, Peter Chen, Dalia~El Badawy, Wei Han, Eugene Kharitonov, Hannah Muckenhirn, Dirk Padfield, James Qin, Danny Rozenberg, Tara Sainath, Johan Schalkwyk, Matt Sharifi, Michelle~Tadmor Ramanovich, Marco Tagliasacchi, Alexandru Tudor, Mihajlo Velimirović, Damien Vincent, Jiahui Yu, Yongqiang Wang, Vicky Zayats, Neil Zeghidour, Yu~Zhang, Zhishuai Zhang, Lukas Zilka, and Christian Frank.
+\newblock Audiopalm: A large language model that can speak and listen, 2023.
+\newblock URL \url{https://arxiv.org/abs/2306.12925}.
+
+\bibitem[Sakshi et~al.(2024)Sakshi, Tyagi, Kumar, Seth, Selvakumar, Nieto, Duraiswami, Ghosh, and Manocha]{sakshi2024mmaumassivemultitaskaudio}
+S~Sakshi, Utkarsh Tyagi, Sonal Kumar, Ashish Seth, Ramaneswaran Selvakumar, Oriol Nieto, Ramani Duraiswami, Sreyan Ghosh, and Dinesh Manocha.
+\newblock Mmau: A massive multi-task audio understanding and reasoning benchmark, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.19168}.
+
+\bibitem[Sam et~al.(2025)Sam, Finzi, and Kolter]{sam2025predictingperformanceblackboxllms}
+Dylan Sam, Marc Finzi, and J.~Zico Kolter.
+\newblock Predicting the performance of black-box llms through self-queries, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.01558}.
+
+\bibitem[Stahl et~al.(2024)Stahl, Biermann, Nehring, and Wachsmuth]{stahl2024exploringllmpromptingstrategies}
+Maja Stahl, Leon Biermann, Andreas Nehring, and Henning Wachsmuth.
+\newblock Exploring llm prompting strategies for joint essay scoring and feedback generation, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.15845}.
+
+\bibitem[Tang et~al.(2024)Tang, Yu, Sun, Chen, Tan, Li, Lu, Ma, and Zhang]{tang2024salmonngenerichearingabilities}
+Changli Tang, Wenyi Yu, Guangzhi Sun, Xianzhao Chen, Tian Tan, Wei Li, Lu~Lu, Zejun Ma, and Chao Zhang.
+\newblock Salmonn: Towards generic hearing abilities for large language models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2310.13289}.
+
+\bibitem[Touvron et~al.(2023)Touvron, Martin, Stone, Albert, Almahairi, Babaei, Bashlykov, Batra, Bhargava, Bhosale, Bikel, Blecher, Ferrer, Chen, Cucurull, Esiobu, Fernandes, Fu, Fu, Fuller, Gao, Goswami, Goyal, Hartshorn, Hosseini, Hou, Inan, Kardas, Kerkez, Khabsa, Kloumann, Korenev, Koura, Lachaux, Lavril, Lee, Liskovich, Lu, Mao, Martinet, Mihaylov, Mishra, Molybog, Nie, Poulton, Reizenstein, Rungta, Saladi, Schelten, Silva, Smith, Subramanian, Tan, Tang, Taylor, Williams, Kuan, Xu, Yan, Zarov, Zhang, Fan, Kambadur, Narang, Rodriguez, Stojnic, Edunov, and Scialom]{touvron2023llama2openfoundation}
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, Dan Bikel, Lukas Blecher, Cristian~Canton Ferrer, Moya Chen, Guillem Cucurull, David Esiobu, Jude Fernandes, Jeremy Fu, Wenyin Fu, Brian Fuller, Cynthia Gao, Vedanuj Goswami, Naman Goyal, Anthony Hartshorn, Saghar Hosseini, Rui Hou, Hakan Inan, Marcin Kardas, Viktor Kerkez, Madian Khabsa, Isabel Kloumann, Artem Korenev, Punit~Singh Koura, Marie-Anne Lachaux, Thibaut Lavril, Jenya Lee, Diana Liskovich, Yinghai Lu, Yuning Mao, Xavier Martinet, Todor Mihaylov, Pushkar Mishra, Igor Molybog, Yixin Nie, Andrew Poulton, Jeremy Reizenstein, Rashi Rungta, Kalyan Saladi, Alan Schelten, Ruan Silva, Eric~Michael Smith, Ranjan Subramanian, Xiaoqing~Ellen Tan, Binh Tang, Ross Taylor, Adina Williams, Jian~Xiang Kuan, Puxin Xu, Zheng Yan, Iliyan Zarov, Yuchen Zhang, Angela Fan, Melanie Kambadur, Sharan Narang, Aurelien Rodriguez, Robert Stojnic, Sergey Edunov, and Thomas Scialom.
+\newblock Llama 2: Open foundation and fine-tuned chat models, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.09288}.
+
+\bibitem[Wang et~al.(2021)Wang, Evanini, Qian, and Mulholland]{bert_1}
+Xinhao Wang, Keelan Evanini, Yao Qian, and Matthew Mulholland.
+\newblock Automated scoring of spontaneous speech from young learners of english using transformers.
+\newblock In \emph{2021 IEEE Spoken Language Technology Workshop (SLT)}, pages 705--712, 2021.
+\newblock \doi{10.1109/SLT48900.2021.9383553}.
+
+\bibitem[Wolf et~al.(2020)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac, Rault, Louf, Funtowicz, Davison, Shleifer, von Platen, Ma, Jernite, Plu, Xu, Scao, Gugger, Drame, Lhoest, and Rush]{wolf2020huggingfacestransformersstateoftheartnatural}
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven~Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest, and Alexander~M. Rush.
+\newblock Huggingface's transformers: State-of-the-art natural language processing, 2020.
+\newblock URL \url{https://arxiv.org/abs/1910.03771}.
+
+\bibitem[Wu et~al.(2021)Wu, Li, Leung, and Meng]{inproceedings_wu_mdd}
+Minglin Wu, Kun Li, Wai-Kim Leung, and Helen Meng.
+\newblock Transformer based end-to-end mispronunciation detection and diagnosis.
+\newblock pages 3954--3958, 08 2021.
+\newblock \doi{10.21437/Interspeech.2021-1467}.
+
+\bibitem[Xu et~al.(2025)Xu, Guo, He, Hu, He, Bai, Chen, Wang, Fan, Dang, Zhang, Wang, Chu, and Lin]{xu2025qwen25omnitechnicalreport}
+Jin Xu, Zhifang Guo, Jinzheng He, Hangrui Hu, Ting He, Shuai Bai, Keqin Chen, Jialin Wang, Yang Fan, Kai Dang, Bin Zhang, Xiong Wang, Yunfei Chu, and Junyang Lin.
+\newblock Qwen2.5-omni technical report, 2025.
+\newblock URL \url{https://arxiv.org/abs/2503.20215}.
+
+\bibitem[Xu et~al.(2021)Xu, Kang, Cao, Lin, and Ma]{xu21k_interspeech}
+Xiaoshuo Xu, Yueteng Kang, Songjun Cao, Binghuai Lin, and Long Ma.
+\newblock Explore wav2vec 2.0 for mispronunciation detection.
+\newblock In \emph{Interspeech 2021}, pages 4428--4432, 2021.
+\newblock \doi{10.21437/Interspeech.2021-777}.
+
+\bibitem[Yancey et~al.(2023)Yancey, Laflair, Verardi, and Burstein]{yancey-etal-2023-rating}
+Kevin~P. Yancey, Geoffrey Laflair, Anthony Verardi, and Jill Burstein.
+\newblock Rating short {L}2 essays on the {CEFR} scale with {GPT}-4.
+\newblock In Ekaterina Kochmar, Jill Burstein, Andrea Horbach, Ronja Laarmann-Quante, Nitin Madnani, Ana{\"i}s Tack, Victoria Yaneva, Zheng Yuan, and Torsten Zesch, editors, \emph{Proceedings of the 18th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2023)}, pages 576--584, Toronto, Canada, July 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.bea-1.49}.
+\newblock URL \url{https://aclanthology.org/2023.bea-1.49/}.
+
+\bibitem[Yang et~al.(2020)Yang, Dai, Yang, Carbonell, Salakhutdinov, and Le]{yang2020xlnetgeneralizedautoregressivepretraining}
+Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, and Quoc~V. Le.
+\newblock Xlnet: Generalized autoregressive pretraining for language understanding, 2020.
+\newblock URL \url{https://arxiv.org/abs/1906.08237}.
+
+\end{thebibliography}

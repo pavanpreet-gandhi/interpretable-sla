@@ -1,0 +1,56 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Literature Review}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Spoken Language Assessment}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Self Supervised Learning}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Speech Large Language Models}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Mispronunciation Detection}{8}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Automatic Essay Scoring (AES)}{8}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Question-based LLM-derived Interpretable Features}{9}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Methodology}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Problem Setup}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Question-based Approach}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Question Set Design}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Feature Extraction via Speech LLMs}{13}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Final Regression Model}{14}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Experiments}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dataset}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Baselines}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}BERT Baseline}{17}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Speech LLM Representations}{17}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Question Sets}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Implementation Details}{19}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Calibration and Evaluation Metrics}{20}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Results and Discussion}{22}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Comparison of Transformations}{22}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Comparison of Models}{23}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Comparison of Feature Sets}{24}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Visual Inspection}{26}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Interpretable Feature Analysis}{26}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Correlation Analysis}{27}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Regression Coefficients}{29}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Question-level Scores}{30}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Low Data Regime}{31}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Conclusion}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of Findings}{35}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Implications for SLA and Educational Technology}{36}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Limitations and Future Work}{36}{section.6.3}%
+\contentsline {chapter}{\numberline {A}Full Question Sets and Prompts}{46}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Initial Question Set}{46}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Direct Scoring Prompt}{48}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Rubric-based Question Set}{50}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Rubric-based Question Set Batch Prompt}{51}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Revised Question Set}{53}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Revised Question Set Batch Prompt}{57}{section.A.6}%
+\contentsline {chapter}{\numberline {B}Additional Results}{62}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Development Subset}{62}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Part 1}{62}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}Part 3}{63}{subsection.B.1.2}%
+\contentsline {subsection}{\numberline {B.1.3}Part 4}{63}{subsection.B.1.3}%
+\contentsline {subsection}{\numberline {B.1.4}Part 5}{63}{subsection.B.1.4}%
+\contentsline {subsection}{\numberline {B.1.5}Overall}{63}{subsection.B.1.5}%
+\contentsline {section}{\numberline {B.2}Evaluation Subset}{64}{section.B.2}%
+\contentsline {subsection}{\numberline {B.2.1}Part 1}{64}{subsection.B.2.1}%
+\contentsline {subsection}{\numberline {B.2.2}Part 3}{64}{subsection.B.2.2}%
+\contentsline {subsection}{\numberline {B.2.3}Part 4}{65}{subsection.B.2.3}%
+\contentsline {subsection}{\numberline {B.2.4}Part 5}{65}{subsection.B.2.4}%
+\contentsline {subsection}{\numberline {B.2.5}Overall}{65}{subsection.B.2.5}%
