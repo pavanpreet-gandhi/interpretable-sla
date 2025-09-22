@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.3)  21 SEP 2025 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.3)  21 SEP 2025 22:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,7 +711,7 @@ Overfull \hbox (4.72816pt too wide) in paragraph at lines 132--133
  []
 
 [12{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [13]
-<images/overall_method_schematic.png, id=656, 652.4375pt x 693.59125pt>
+<images/overall_method_schematic.png, id=662, 652.4375pt x 693.59125pt>
 File: images/overall_method_schematic.png Graphic file (type png)
 <use images/overall_method_schematic.png>
 Package pdftex.def Info: images/overall_method_schematic.png  used on input line 177.
@@ -736,7 +736,7 @@ File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
-<images/calibration_schematic.png, id=762, 935.495pt x 556.0775pt>
+<images/calibration_schematic.png, id=768, 935.495pt x 556.0775pt>
 File: images/calibration_schematic.png Graphic file (type png)
 <use images/calibration_schematic.png>
 Package pdftex.def Info: images/calibration_schematic.png  used on input line 307.
@@ -746,12 +746,12 @@ Chapter 5.
 [22
 
 ] [23] [24] [25]
-<images/actual_vs_predicted_orig.png, id=824, 705.3552pt x 414.8298pt>
+<images/actual_vs_predicted_orig.png, id=830, 705.3552pt x 414.8298pt>
 File: images/actual_vs_predicted_orig.png Graphic file (type png)
 <use images/actual_vs_predicted_orig.png>
 Package pdftex.def Info: images/actual_vs_predicted_orig.png  used on input line 428.
 (pdftex.def)             Requested size: 424.58624pt x 249.70367pt.
-<images/actual_vs_predicted_all.png, id=826, 705.3552pt x 414.8298pt>
+<images/actual_vs_predicted_all.png, id=832, 705.3552pt x 414.8298pt>
 File: images/actual_vs_predicted_all.png Graphic file (type png)
 <use images/actual_vs_predicted_all.png>
 Package pdftex.def Info: images/actual_vs_predicted_all.png  used on input line 437.
@@ -760,7 +760,7 @@ Package pdftex.def Info: images/actual_vs_predicted_all.png  used on input line 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/correlation_matrix_original.png, id=827, 805.8105pt x 704.6325pt>
+<images/correlation_matrix_original.png, id=833, 805.8105pt x 704.6325pt>
 File: images/correlation_matrix_original.png Graphic file (type png)
 <use images/correlation_matrix_original.png>
 Package pdftex.def Info: images/correlation_matrix_original.png  used on input line 452.
@@ -769,7 +769,7 @@ Package pdftex.def Info: images/correlation_matrix_original.png  used on input l
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/correlation_matrix_rubric.png, id=838, 649.7073pt x 560.0925pt>
+<images/correlation_matrix_rubric.png, id=844, 649.7073pt x 560.0925pt>
 File: images/correlation_matrix_rubric.png Graphic file (type png)
 <use images/correlation_matrix_rubric.png>
 Package pdftex.def Info: images/correlation_matrix_rubric.png  used on input line 467.
@@ -778,7 +778,7 @@ Package pdftex.def Info: images/correlation_matrix_rubric.png  used on input lin
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27 <./images/actual_vs_predicted_all.png>] [28 <./images/correlation_matrix_original.png>]
-<images/coefficients.png, id=853, 416.0343pt x 342.5598pt>
+<images/coefficients.png, id=860, 416.0343pt x 342.5598pt>
 File: images/coefficients.png Graphic file (type png)
 <use images/coefficients.png>
 Package pdftex.def Info: images/coefficients.png  used on input line 480.
@@ -788,7 +788,7 @@ Package pdftex.def Info: images/coefficients.png  used on input line 480.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 <./images/correlation_matrix_rubric.png>]
-<images/question_scores_schematic.png, id=862, 955.57pt x 494.84875pt>
+<images/question_scores_schematic.png, id=868, 955.57pt x 494.84875pt>
 File: images/question_scores_schematic.png Graphic file (type png)
 <use images/question_scores_schematic.png>
 Package pdftex.def Info: images/question_scores_schematic.png  used on input line 491.
@@ -797,7 +797,7 @@ Package pdftex.def Info: images/question_scores_schematic.png  used on input lin
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/question_score_examples.png, id=863, 707.88464pt x 422.41815pt>
+<images/question_score_examples.png, id=869, 707.88464pt x 422.41815pt>
 File: images/question_score_examples.png Graphic file (type png)
 <use images/question_score_examples.png>
 Package pdftex.def Info: images/question_score_examples.png  used on input line 498.
@@ -806,7 +806,7 @@ Package pdftex.def Info: images/question_score_examples.png  used on input line 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30 <./images/coefficients.png>]
-<images/low_data_regime_pcc.png, id=872, 712.1004pt x 422.5386pt>
+<images/low_data_regime_pcc.png, id=878, 712.1004pt x 422.5386pt>
 File: images/low_data_regime_pcc.png Graphic file (type png)
 <use images/low_data_regime_pcc.png>
 Package pdftex.def Info: images/low_data_regime_pcc.png  used on input line 511.
@@ -815,7 +815,7 @@ Package pdftex.def Info: images/low_data_regime_pcc.png  used on input line 511.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/low_data_regime_rmse.png, id=873, 712.1004pt x 422.5386pt>
+<images/low_data_regime_rmse.png, id=879, 712.1004pt x 422.5386pt>
 File: images/low_data_regime_rmse.png Graphic file (type png)
 <use images/low_data_regime_rmse.png>
 Package pdftex.def Info: images/low_data_regime_rmse.png  used on input line 518.
@@ -944,10 +944,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,11n,117p,4280b,1056s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "project_report - pg.pdf" (67 pages, 4940345 bytes).
+Output written on "project_report - pg.pdf" (67 pages, 4940850 bytes).
 PDF statistics:
- 1326 PDF objects out of 1440 (max. 8388607)
- 1153 compressed objects within 12 object streams
+ 1332 PDF objects out of 1440 (max. 8388607)
+ 1159 compressed objects within 12 object streams
  274 named destinations out of 1000 (max. 500000)
  665 words of extra memory for PDF output out of 10000 (max. 10000000)
 
