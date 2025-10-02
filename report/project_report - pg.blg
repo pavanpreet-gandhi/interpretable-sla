@@ -6,45 +6,45 @@ Database file #1: references.bib
 Warning--to sort, need author or key in apache_parquet
 Warning--empty journal in mcknight_civelekoglu_gales_banno_liusie_knill_2023
 Warning--empty booktitle in inproceedings_wu_mdd
-You've used 63 entries,
+You've used 62 entries,
             2773 wiz_defined-function locations,
-            910 strings with 28813 characters,
-and the built_in function-call counts, 60138 in all, are:
-= -- 4359
-> -- 7540
+            909 strings with 28806 characters,
+and the built_in function-call counts, 59572 in all, are:
+= -- 4316
+> -- 7483
 < -- 18
-+ -- 2516
-- -- 2452
-* -- 6097
-:= -- 9998
-add.period$ -- 218
-call.type$ -- 63
-change.case$ -- 991
++ -- 2496
+- -- 2434
+* -- 6041
+:= -- 9908
+add.period$ -- 215
+call.type$ -- 62
+change.case$ -- 982
 chr.to.int$ -- 62
-cite$ -- 130
-duplicate$ -- 1226
-empty$ -- 2309
-format.name$ -- 2520
-if$ -- 11751
-int.to.chr$ -- 2
+cite$ -- 128
+duplicate$ -- 1210
+empty$ -- 2276
+format.name$ -- 2501
+if$ -- 11638
+int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 22
-newline$ -- 348
-num.names$ -- 256
-pop$ -- 2132
+newline$ -- 343
+num.names$ -- 252
+pop$ -- 2111
 preamble$ -- 1
-purify$ -- 930
+purify$ -- 922
 quote$ -- 0
-skip$ -- 1733
+skip$ -- 1717
 stack$ -- 0
-substring$ -- 535
-swap$ -- 177
+substring$ -- 533
+swap$ -- 174
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 683
+type$ -- 672
 warning$ -- 3
-while$ -- 222
+while$ -- 219
 width$ -- 0
-write$ -- 833
+write$ -- 821
 (There were 3 warnings)

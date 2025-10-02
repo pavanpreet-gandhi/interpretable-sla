@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.3)  21 SEP 2025 22:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.3)  22 SEP 2025 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -545,6 +545,10 @@ File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4062.
 Package hyperref Info: Hyper figures OFF on input line 4179.
 Package hyperref Info: Link nesting OFF on input line 4184.
 Package hyperref Info: Hyper index ON on input line 4187.
@@ -571,7 +575,7 @@ Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
 Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring ON on input line 6081.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
@@ -606,24 +610,24 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./project_report - pg.aux)
 \openout1 = `"project_report - pg.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count335
@@ -653,7 +657,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring ON on input line 51.
  (./project_report - pg.out) (./project_report - pg.out)
 \@outlinefile=\write4
 \openout4 = `"project_report - pg.out"'.
@@ -661,13 +665,13 @@ Package hyperref Info: Link coloring OFF on input line 32.
 <ucl_logo.png, id=268, 295.1025pt x 84.315pt>
 File: ucl_logo.png Graphic file (type png)
 <use ucl_logo.png>
-Package pdftex.def Info: ucl_logo.png  used on input line 36.
+Package pdftex.def Info: ucl_logo.png  used on input line 55.
 (pdftex.def)             Requested size: 147.55087pt x 42.15738pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -676,7 +680,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 \end{abstract}
+l.59 \end{abstract}
                     [1] (./project_report - pg.toc
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -692,7 +696,7 @@ l.32 ...ine {5.6}Low Data Regime}{31}{section.5.6}
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 \chapter
+l.63 \chapter
              {Introduction} [1]
 Chapter 1.
 [2
@@ -706,15 +710,15 @@ Chapter 3.
 [11
 
 ]
-Overfull \hbox (4.72816pt too wide) in paragraph at lines 132--133
+Overfull \hbox (4.72816pt too wide) in paragraph at lines 151--152
 \OT1/cmr/m/n/10 tions. Each ques-tion $\OML/cmm/m/it/10 q[]$ \OT1/cmr/m/n/10 is as-so-ci-ated with a set of pos-si-ble an-swer op-tions $\OMS/cmsy/m/n/10 O[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 o[]; o[]; [] ; o[]\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 ,
  []
 
 [12{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [13]
-<images/overall_method_schematic.png, id=662, 652.4375pt x 693.59125pt>
+<images/overall_method_schematic.png, id=718, 652.4375pt x 693.59125pt>
 File: images/overall_method_schematic.png Graphic file (type png)
 <use images/overall_method_schematic.png>
-Package pdftex.def Info: images/overall_method_schematic.png  used on input line 177.
+Package pdftex.def Info: images/overall_method_schematic.png  used on input line 196.
 (pdftex.def)             Requested size: 424.58624pt x 451.3793pt.
 
 
@@ -725,100 +729,101 @@ Chapter 4.
 [16
 
 ] [17]
-Overfull \hbox (25.34439pt too wide) in paragraph at lines 232--245
+Overfull \hbox (25.34439pt too wide) in paragraph at lines 251--264
  [][] 
  []
 
 [18] [19]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 283.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 304.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 283.
-<images/calibration_schematic.png, id=768, 935.495pt x 556.0775pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 304.
+ [20]
+<images/calibration_schematic.png, id=832, 935.495pt x 556.0775pt>
 File: images/calibration_schematic.png Graphic file (type png)
 <use images/calibration_schematic.png>
-Package pdftex.def Info: images/calibration_schematic.png  used on input line 307.
+Package pdftex.def Info: images/calibration_schematic.png  used on input line 328.
 (pdftex.def)             Requested size: 424.58624pt x 252.38776pt.
- [20] [21 <./images/calibration_schematic.png>]
+ [21 <./images/calibration_schematic.png>]
 Chapter 5.
 [22
 
 ] [23] [24] [25]
-<images/actual_vs_predicted_orig.png, id=830, 705.3552pt x 414.8298pt>
+<images/actual_vs_predicted_orig.png, id=890, 705.3552pt x 414.8298pt>
 File: images/actual_vs_predicted_orig.png Graphic file (type png)
 <use images/actual_vs_predicted_orig.png>
-Package pdftex.def Info: images/actual_vs_predicted_orig.png  used on input line 428.
+Package pdftex.def Info: images/actual_vs_predicted_orig.png  used on input line 449.
 (pdftex.def)             Requested size: 424.58624pt x 249.70367pt.
-<images/actual_vs_predicted_all.png, id=832, 705.3552pt x 414.8298pt>
+<images/actual_vs_predicted_all.png, id=892, 705.3552pt x 414.8298pt>
 File: images/actual_vs_predicted_all.png Graphic file (type png)
 <use images/actual_vs_predicted_all.png>
-Package pdftex.def Info: images/actual_vs_predicted_all.png  used on input line 437.
+Package pdftex.def Info: images/actual_vs_predicted_all.png  used on input line 458.
 (pdftex.def)             Requested size: 424.58624pt x 249.70367pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/correlation_matrix_original.png, id=833, 805.8105pt x 704.6325pt>
+<images/correlation_matrix_original.png, id=893, 805.8105pt x 704.6325pt>
 File: images/correlation_matrix_original.png Graphic file (type png)
 <use images/correlation_matrix_original.png>
-Package pdftex.def Info: images/correlation_matrix_original.png  used on input line 452.
+Package pdftex.def Info: images/correlation_matrix_original.png  used on input line 473.
 (pdftex.def)             Requested size: 424.58624pt x 371.28159pt.
 [26 <./images/actual_vs_predicted_orig.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/correlation_matrix_rubric.png, id=844, 649.7073pt x 560.0925pt>
+<images/correlation_matrix_rubric.png, id=904, 649.7073pt x 560.0925pt>
 File: images/correlation_matrix_rubric.png Graphic file (type png)
 <use images/correlation_matrix_rubric.png>
-Package pdftex.def Info: images/correlation_matrix_rubric.png  used on input line 467.
+Package pdftex.def Info: images/correlation_matrix_rubric.png  used on input line 488.
 (pdftex.def)             Requested size: 424.58624pt x 366.03pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27 <./images/actual_vs_predicted_all.png>] [28 <./images/correlation_matrix_original.png>]
-<images/coefficients.png, id=860, 416.0343pt x 342.5598pt>
+<images/coefficients.png, id=919, 416.0343pt x 342.5598pt>
 File: images/coefficients.png Graphic file (type png)
 <use images/coefficients.png>
-Package pdftex.def Info: images/coefficients.png  used on input line 480.
+Package pdftex.def Info: images/coefficients.png  used on input line 501.
 (pdftex.def)             Requested size: 339.67029pt x 279.68294pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 <./images/correlation_matrix_rubric.png>]
-<images/question_scores_schematic.png, id=868, 955.57pt x 494.84875pt>
+<images/question_scores_schematic.png, id=927, 955.57pt x 494.84875pt>
 File: images/question_scores_schematic.png Graphic file (type png)
 <use images/question_scores_schematic.png>
-Package pdftex.def Info: images/question_scores_schematic.png  used on input line 491.
+Package pdftex.def Info: images/question_scores_schematic.png  used on input line 512.
 (pdftex.def)             Requested size: 424.58624pt x 219.87099pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/question_score_examples.png, id=869, 707.88464pt x 422.41815pt>
+<images/question_score_examples.png, id=928, 707.88464pt x 422.41815pt>
 File: images/question_score_examples.png Graphic file (type png)
 <use images/question_score_examples.png>
-Package pdftex.def Info: images/question_score_examples.png  used on input line 498.
+Package pdftex.def Info: images/question_score_examples.png  used on input line 519.
 (pdftex.def)             Requested size: 424.58624pt x 253.3626pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30 <./images/coefficients.png>]
-<images/low_data_regime_pcc.png, id=878, 712.1004pt x 422.5386pt>
+<images/low_data_regime_pcc.png, id=937, 712.1004pt x 422.5386pt>
 File: images/low_data_regime_pcc.png Graphic file (type png)
 <use images/low_data_regime_pcc.png>
-Package pdftex.def Info: images/low_data_regime_pcc.png  used on input line 511.
+Package pdftex.def Info: images/low_data_regime_pcc.png  used on input line 532.
 (pdftex.def)             Requested size: 424.58624pt x 251.9326pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/low_data_regime_rmse.png, id=879, 712.1004pt x 422.5386pt>
+<images/low_data_regime_rmse.png, id=938, 712.1004pt x 422.5386pt>
 File: images/low_data_regime_rmse.png Graphic file (type png)
 <use images/low_data_regime_rmse.png>
-Package pdftex.def Info: images/low_data_regime_rmse.png  used on input line 518.
+Package pdftex.def Info: images/low_data_regime_rmse.png  used on input line 539.
 (pdftex.def)             Requested size: 424.58624pt x 251.9326pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -831,7 +836,7 @@ Chapter 6.
 
 ]
 Underfull \hbox (badness 3635) in paragraph at lines 66--70
-[]\OT1/cmr/m/n/10 Cambridge En-glish.  Lin-guaskill speak-ing global as-sess-ment cri-te-ria.  []$\OT1/cmtt/m/n/10 https : / / www .
+[]\OT1/cmr/m/n/10 Cambridge En-glish.  Lin-guaskill speak-ing global as-sess-ment cri-te-ria.  [][]$\OT1/cmtt/m/n/10 https : / / www .
  []
 
 
@@ -844,82 +849,82 @@ Appendix A.
 [45
 
 ] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 690--727
+Underfull \hbox (badness 10000) in paragraph at lines 713--750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--727
+Underfull \hbox (badness 10000) in paragraph at lines 713--750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--727
+Underfull \hbox (badness 10000) in paragraph at lines 713--750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--727
+Underfull \hbox (badness 10000) in paragraph at lines 713--750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--727
+Underfull \hbox (badness 10000) in paragraph at lines 713--750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--727
+Underfull \hbox (badness 10000) in paragraph at lines 713--750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--727
+Underfull \hbox (badness 10000) in paragraph at lines 713--750
 
  []
 
 [47] [48] [49]
-Underfull \hbox (badness 10000) in paragraph at lines 781--819
+Underfull \hbox (badness 10000) in paragraph at lines 804--842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--819
+Underfull \hbox (badness 10000) in paragraph at lines 804--842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--819
+Underfull \hbox (badness 10000) in paragraph at lines 804--842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--819
+Underfull \hbox (badness 10000) in paragraph at lines 804--842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--819
+Underfull \hbox (badness 10000) in paragraph at lines 804--842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--819
+Underfull \hbox (badness 10000) in paragraph at lines 804--842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--819
+Underfull \hbox (badness 10000) in paragraph at lines 804--842
 
  []
 
 [50] [51] [52] [53] [54] [55]
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1065
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1042
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1065
 
  []
 
@@ -933,21 +938,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `"project_report - pg".out' has not changed.
-(rerunfilecheck)             Checksum: E9B968845BE9C93E1ABFAA30AE0D300E;8878.
+(rerunfilecheck)             Checksum: 169B07933382ED80CBD6CE6E68E12E51;10258.
  ) 
 Here is how much of TeX's memory you used:
- 29937 strings out of 474116
- 607777 string characters out of 5743682
+ 29933 strings out of 474116
+ 607720 string characters out of 5743682
  1976187 words of memory out of 5000000
- 51527 multiletter control sequences out of 15000+600000
+ 51524 multiletter control sequences out of 15000+600000
  570933 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,117p,4280b,1056s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "project_report - pg.pdf" (67 pages, 4940850 bytes).
+Output written on "project_report - pg.pdf" (67 pages, 4946543 bytes).
 PDF statistics:
- 1332 PDF objects out of 1440 (max. 8388607)
- 1159 compressed objects within 12 object streams
- 274 named destinations out of 1000 (max. 500000)
+ 1390 PDF objects out of 1440 (max. 8388607)
+ 1216 compressed objects within 13 object streams
+ 273 named destinations out of 1000 (max. 500000)
  665 words of extra memory for PDF output out of 10000 (max. 10000000)
 
