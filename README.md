@@ -6,13 +6,11 @@ A case study on using LLM-derived question-based interpretable features for auto
 
 ## Overview
 
-This project develops an interpretable approach to automatic spoken language assessment using question-based features extracted from speech Large Language Models (LLMs). Rather than relying on black-box representations from self-supervised models or speech LLMs, we leverage speech LLMs to answer predefined questions about spoken responses.
+This project develops an interpretable approach to automatic spoken language assessment using question-based features extracted from speech Large Language Models (LLMs). Rather than relying on black-box representations from self-supervised models or speech LLMs, we leverage speech LLMs to answer predefined questions about spoken responses. These answers produce a more interpretable feature set that achieves competitive performance with far fewer features.
 
 The overall methodology is illustrated below:
 
 ![Overall Method Schematic](report/images/overall_method_schematic.png)
-
-Speech LLM answers to these questions produce a smaller, more interpretable feature set that achieves competitive performance on spoken language assessment tasks.
 
 ## Repository Structure
 
